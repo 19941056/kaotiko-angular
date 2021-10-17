@@ -1,0 +1,46 @@
+.container-gallery{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    .container-gallery__items{
+        display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    }
+    img{
+        max-width: 60%;
+        border-radius: 6px;
+    }
+    button{
+        
+    width: 20%;
+    padding: 15px;
+    margin: 45px;
+    font-size: 15px;
+    border-radius: 6px;
+
+    
+}
+}
+.man{
+    button{
+        background-color: black;
+        color: white;
+    }
+}
+.unisex{
+    button{
+        background-color: #984c28;
+        color: white;
+    }
+}
+.woman{
+    button{
+        background-color: rgb(222, 203, 203);
+        color: black;
+    }
+}
+

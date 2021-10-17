@@ -1,0 +1,16 @@
+<div class="container-gallery">
+<div class="container-gallery__items" *ngIf="gallery.button=='Hombre'" [ngClass]="{man:gallery.button=='Hombre'}">
+    <img src="{{gallery.hombre.src}}" alt="{{gallery.hombre.alt}}">
+    <button (click)='onClickClothes()'>{{gallery.button}}</button>
+</div>
+
+
+<div class="container-gallery__items" *ngIf="gallery.button=='Unisex'" [ngClass]="{unisex:gallery.button=='Unisex'}">
+    <img src="{{gallery.unisex.src}}" alt="{{gallery.mujer.alt}}">
+    <button (click)='onClickClothes()'>{{gallery.button}}</button>
+</div>
+<div class="container-gallery__items" *ngIf="gallery.button=='Mujer'" [ngClass]="{woman:gallery.button=='Mujer'}">
+    <img src="{{gallery.mujer.src}}" alt="{{gallery.mujer.alt}}">
+    <button (click)='onClickClothes()'>{{gallery.button}}</button>
+</div>
+</div>

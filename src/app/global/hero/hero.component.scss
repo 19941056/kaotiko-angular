@@ -1,0 +1,35 @@
+.container-hero{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     .container-hero__items-1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        margin-left: 65px;
+    
+    button{
+        width: 60%;
+        margin-left: 25px;
+        background-color: white;
+        font-size: 15px;
+    }
+    input{
+        margin: 10px;
+        margin-left: 37px;
+        width: 50%;
+        height: 20px;
+        background-color: white;
+    }
+    }
+
+    .container-hero__items{
+        
+        margin: 10px;
+        
+       
+    }
+    h3{
+        margin: -25px;
+    }
+}
